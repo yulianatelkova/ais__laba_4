@@ -6,6 +6,7 @@ class Graph(object):
         self.nodes = nodes
         self.graph = self.construct_graph(nodes, init_graph)
 
+
 # Этот метод обеспечивает симметричность графика
     def construct_graph(self, nodes, init_graph):
         graph = {}
