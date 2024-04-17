@@ -33,6 +33,6 @@ class Graph(object):
                 connections.append(out_node)
         return connections
 
+    # Возвращает значение ребра между двумя узлами
     def value(self, node1, node2):
-        # Возвращает значение ребра между двумя узлами
         return self.graph[node1][node2]
